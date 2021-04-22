@@ -8,21 +8,22 @@
 
 }
 body{
- color: rgb(17, 3, 3); ;
+ color: rgb(17, 3, 3);
+ background-color: rgb(243, 243, 243);
 
 }
 marquee{
     background: rgb(94, 93, 90);
     width: 100%;
-    height: 11vh;
+    height: 12vh;
 
 }
 marquee img{
     padding-top: 10px;
 }
 marquee h3{
-    font-size: 38px;
-    margin-bottom: 10px;
+    font-size: 24px;
+    padding-bottom: 20px;
 }
 .col-md-4 h6{
     text-align: center;
@@ -56,31 +57,29 @@ nav .nav-links li a{
 
 }
 /*=====featured section*/
-.featured{
-    flex-basis: 30%;
-}
-.row-1{
+.row{
     margin-top: 80px;
     margin-bottom: 80px;
 }
 .featured-text{
     text-align: center;
-    margin-bottom: 50px;
-    flex-basis: 30%;
-    margin: 10px;
     box-shadow: 0 0 20px 0;
     border: 1px solid gold;
     z-index: 1;
     transition: 0.5s;
     border-radius: 10px;
+    width: 100%;
+    height: 45vh;
+    margin: 20px;
 }
 .featured-text p{
-    font-size: 32px;
+    font-size: 24px;
     color: rgb(17, 3, 3); 
 }
 .featured-text h3{
     font-size: 24px;
     padding-top: 10px;
+    margin-top: 30px;
 }
 .featured-text:hover{
     background: rgb(50, 175, 233);
@@ -94,29 +93,21 @@ nav .nav-links li a{
     color: crimson;
 }
 section{
-    background-image: url('../images/featured-banner.jpg');
+    background-image: url('../images/fature-banner-2.jpg');
     background-position: center;
     background-size:cover ;
-    height: 900px;
-    background-blend-mode: color-dodge;
-    margin-top: 50px;
-}
-.row-2{
-    flex-basis: 30%;
-    
+    padding-top: 20px;
 }
 
 .main-features{
     text-align: center;
-    flex-basis: 25%;
-    margin: auto;
-    margin-top: 50px;
     box-shadow: 0 0 20px 0;
     border: 1px solid gold;
     z-index: 1;
     transition: 0.5s;
     border-radius: 10px;
-    height: 35vh;
+    margin-bottom: 20px;
+    width: 95%;
 }
 .main-features:hover{
     background: grey;
@@ -124,7 +115,7 @@ section{
     transform: translateX(15%);
 }
 .main-features p{
-    font-size: 30px;
+    font-size: 24px;
     color: #fff;
 }
 .main-features h3{
@@ -134,18 +125,133 @@ section{
 
 }
 .icons-2{
-    font-size: 60px;
+    font-size: 35px;
     color: skyblue; 
     transform: rotate(-45deg);
-    padding: 20px;
+    padding: 10px;
 
 }
 .icons-box{
     background-color: crimson;
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     transform: rotate(45deg);
     border-radius: 5px;
-    margin: 20px auto;
-    padding-bottom: 10px;
+    margin: 10px auto;
+    padding-bottom: 20px;
+}
+article h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+article p{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.row-quote{
+    background: grey;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.row-quote p{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 30px;    font-weight: bold;
+
+}
+
+ .row-partners{
+    box-shadow: rgb(69, 147, 219) 3px 3px 6px 0px inset, rgba(136, 131, 131, 0.925) -3px -3px 6px 1px inset;
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+}
+.about-text{
+    background-color: rgb(243, 243, 243);
+    margin: 15px;
+    font-size: 20px;
+    box-shadow: rgba(240, 166, 6, 0.849) 1.95px 1.95px 2.6px;
+    border-radius: 20px;
+    z-index: 2;
+    width: 100%;
+    height: 40vh;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+.about-text:hover{
+    transform: translateX(-5%);
+    transition: 0.5s ease-in;
+    background-color: rgb(8, 177, 199);
+}
+.about-text ul li{
+    list-style: none;
+    text-align: center;
+    text-align: left;
+}
+.about-text h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-text a{
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(21, 133, 197);
+}
+.about-text a:hover{
+    color: rgb(73, 73, 68);
+}
+.icons-3{
+    font-size: 40px;
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.icons-4{
+    color: goldenrod;
+    padding-right: 10px;
+}
+footer{
+background: grey;
+height: 18vh;
+
+}
+.social{
+margin-left: 40px;
+padding-top: 20px;
+}
+.social-icons{
+    margin-right: auto;
+    text-align: center;
+    padding-top: 15px;
+    color: honeydew;
+    width: 90%;
+    line-height: 5px;
+    box-shadow: rgba(247, 160, 31, 0.4) 3px 3px, rgba(14, 176, 197, 0.3) 5px 5px;
+    height: 15vh;
+}
+.social-icons span{
+    margin: 40px;   
+}
+.social-icons h4{
+    margin-bottom: 10px;
+}
+.social-icons p{
+    font-size: 18px;
+}
+.icons-5{
+    font-size: 30px;  
+}
+.icons-5:hover{
+    color: rgb(20, 207, 220);
+}
+.icons-6{
+    font-size: 30px;
+    color: rgb(9, 222, 250);
 }
