@@ -1,83 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prymage Consultancy Service</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/ef0fb07139.js"></script>
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
-
-
-  <script>
-    $(".carousel").owlCarousel({
-      margin: 20,
-      loop: true,
-      autoplay: true,
-      autoplaytime: 1000,
-      autoplayHoverPause: true,
-
-      responsive: {
-        0: {
-          items: 1,
-          nav: false
-        },
-        600: {
-          items: 2,
-          nav: false
-        },
-        1000: {
-          items: 3,
-          nav: false
-        },
-      }
-    })
-  </script>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Prymage Consultancy Service</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<script src="https://kit.fontawesome.com/ef0fb07139.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 
 </head>
 
-<body>
-  <!----marque section-->
+<body style="background-color: rgb(16, 17, 17); color: honeydew;">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-8">
-        <marquee behavior="" direction="left">
-          <img src="images/logo.png" />
-          <h3><span style="color: rgb(9, 175, 216);">Simple</span> &ThinSpace;<span
-              style="color: rgb(228, 158, 78);">Solutions</span>&ThinSpace; <span style="color: crimson;">Only</span>
-          </h3>
-        </marquee>
-      </div>
-      <div class="col-md-4">
-        <h6>Hot Line +233 030 -465-7992</h6>
-      </div>
+    <div class="col-8">
+      <marquee behavior="" direction="left">
+        <img src="images/logo.png" alt="">
+        <h1><span style="color: rgb(10, 180, 247);">Simple</span> <span
+            style="color: rgb(235, 144, 8);">Solutions</span> <span style="color: crimson;">Only</span></h1>
+      </marquee>
     </div>
+
   </div>
 
-  <!----navbar section-->
   <nav class="navbar navbar-expand-lg navbar-light bg-grey">
-    <a class="navbar-brand" href="#">
-        <img src="images/logo.png" >
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="bg-color: coral;"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="mr-auto"></div>
+      <div class="mr-auto"></div>
       <div class="navbar-nav">
-        <a class="nav-link active" href="#" style="color: honeydew;">HOME <span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="#" style="color: honeydew;">SERVICES</a>
-        <a class="nav-link" href="#" style="color: honeydew;">ABOUT US</a>
-        <a class="nav-link" href="#" style="color: honeydew;">CONTACT US</a>
+        <a class="nav-link active  current-nav" href="index.html" style="color: honeydew;">HOME <span
+            class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index-service.html" style="color: honeydew;">SERVICES</a>
+        <a class="nav-link" href="index-about.html" style="color: honeydew;">ABOUT US</a>
+        <a class="nav-link" href="index.html" style="color: honeydew;">CONTACT US</a>
       </div>
     </div>
   </nav>
@@ -92,24 +57,12 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="images/hero.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div>
       </div>
       <div class="carousel-item">
         <img src="images/hero2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
       </div>
       <div class="carousel-item">
         <img src="images/hero5.jpg" class="d-block w-100">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -124,14 +77,14 @@
 
   <!----feature-section-->
   <div class="container">
-    <div class="row">
+    <div class="row ">
       <div class="col-md-4">
         <div class="featured-text">
           <h3>TALLY LICENCE</h3>
           <i class="fas fa-id-badge  icons-1"></i>
           <P>
-            With Tally ERP 9, you have access to either the <span style="color: silver;">Silver</span> or <span
-              style="color: darkgoldenrod;">Gold</span> licence or Tally license upgrade anytime.
+            With Tally ERP 9, you have access to either the <span style="color: rgb(187, 186, 186);">Silver</span> or
+            <span style="color: rgb(236, 172, 10);">Gold</span> licence or Tally license upgrade anytime.
           </P>
         </div>
       </div>
@@ -157,8 +110,13 @@
   </div>
 
   <h1 style="text-align: center;">FEATURES OF TALLY ERP 9</h1>
-  <p style="text-align: center; font-size: 24px;">Tally ERP 9 is a complete business management software solution
-    preferred by over a million customers across the world. Tally ERP 9 caters for all your crucial business needs.</p>
+  <div class="horizon"></div>
+  <div class=" container  text-3">
+    <p>Tally ERP 9 is a complete business management software solution
+      preferred by over a million customers across the world. Tally ERP 9 caters for all your crucial business needs.
+    </p>
+  </div>
+  <!--=======================--activity section=============================-->
   <section>
     <div class="container-fluid">
       <div class="row">
@@ -174,7 +132,7 @@
         <div class="col-md-4">
           <div class="main-features">
             <h3>INVENTORY</h3>
-            <div class="icons-box"><i class="far fa-clipboard  icons-2"></i></div>
+            <div class="icons-box"><i class="fas fa-clipboard  icons-2"></i></div>
             <p>You can easily track all stock any day or anytime be it in a single location or multiple locations.</p>
           </div>
         </div>
@@ -216,6 +174,7 @@
 
   <article>
     <h3>Prymage Consultancy Ltd.</h3>
+    <div class="horizon"></div>
     <p>Authorised Tally Sales and Support Partner
       <br>
       Trusted by businesses since 2008
@@ -226,105 +185,259 @@
 
 
   <!----------countdown section ends here---------->
-  <div class="container">
-    <div class="row  row-quote">
-      <p> We render services to meet client needs and to ensure maximum satisfaction, bearing in mind that clients are
-        an integral part of business. We pride ourselves in delivering the best of solutions to clients satisfaction and
-        going the extra mile in all we do </p>
-    </div>
-  </div>
-
-  <!----------Partner's section---------->
-
-  <div class="container">
-    <h1 style="text-align: center; m-30px">COMPANIES THAT TRUST TALLY ERP9</h1>
-    <div class="row  row-partners">
-      <img src="images/weblogo.jpg">
-    </div>
-  </div>
-
+  <!----------Quote-section here---------->
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <div class="about-text">
-          <h3>COMPANY INFO</h3>
-        <i class="fas fa-building   icons-3"></i>
-        <P>
-          Prymage Consultancy is an authorized sales and support partner Tally ERP9. Registered under the Companies Code
-          1963 (Act 179) within the West-African sub-region, Headquartered in Ghana.
-        </P>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="about-text">
-          <h3>PRODUCTS</h3>
-        <i class="fas fa-shopping-bag   icons-3"></i>
-        <ul>
-          <li><a href=""><i class="fas fa-id-card-alt  icons-4"></i>Tally ERP9 Software licences</a></li>
-          <li><a href=""><i class="fas fa-users-cog  icons-4"></i>Tally ERP9 Software Renewals</a></li>
-          <li><a href=""><i class="fas fa-users-cog  icons-4"></i>Tally ERP9 Software Upgrades</a></li>
-          <li><a href=""><i class="fas fa-puzzle-piece  icons-4"></i>Tally ERP9 Software AddOns</a></li>
-        </ul>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="about-text">
-          <h3>SERVICES</h3>
-        <i class="fas fa-shipping-fast  icons-3"></i>
-        <ul>
-          <li><a href=""><i class="fas fa-users  icons-4"></i></i>Training (Corporate & Individuals)</a></li>
-          <li><a href=""><i class="fas fa-database  icons-4"></i></i>Installation & Data Structuring</a></li>
-          <li><a href=""><i class="fas fa-chart-pie  icons-4"></i></i>Audit Analysis</a></li>
-          <li><a href=""><i class="fas fa-chalkboard-teacher  icons-4"></i></i>Advice & Consulting</a></li>
-          <li><a href=""><i class="fas fa-network-wired  icons-4"></i>Hardware & Network</a></li>
-        </ul>
-        </div>
-      </div>
+      <p style="font-size: 26px; font-family: cursive; text-align: center;"><i class="fas fa-quote-left"
+          style="color: coral; font-size: 30px;"></i> We render services to meet client needs and to ensure maximum
+        satisfaction, bearing in mind that clients are an integral part of business. We pride ourselves in delivering
+        the best of solutions to clients satisfaction and going the extra mile in all we do <i
+          class="fas fa-quote-right" style="color: coral;font-size: 30px;"></i></p>
     </div>
   </div>
 
-  <footer>
+
+  <!-------partners section-->
+  <h1 style="text-align: center;">OUR TRUSTED PARTNERS</h1>
+  <div class="horizon"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 ">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/partners-logo/consar-removebg-preview.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/partners-logo/everpure.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/partners-logo/k-net.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/partners-logo/melcome-removebg-preview.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/partners-logo/nallem_clothing-removebg-preview (1).png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/partners-logo/oman-fofor-trading-co-ltd-removebg-preview.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/medlab.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/sintex.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/winners chappel.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/azar.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/Beige-Capital.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images//binatone-hd-png-download.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images//dalex.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/medlab.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/sintex.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/tv3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/tecno-logo-djwhitetee.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="wrapper">
+          <div class="card  card-1">
+            <img src="images/ever-logo.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--=======================--Info section=============================-->
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <div class="social-icons">
-            <h4>GET IN TOUCH</h4>
-          <p>No. 188/12 First Chabar</p>
-          <p>Mallam-Odorkor Highway</p>
-          <p>P.O.BOX ML 629</p>
-          <p>Mallam-Accra</p>
+          <div class="about-text">
+            <h3>COMPANY INFO</h3>
+            <i class="fas fa-building   icons-3"></i>
+            <P>
+              Prymage Consultancy is an authorized sales and support partner Tally ERP9. Registered under the Companies
+              Code
+              1963 (Act 179) within the West-African sub-region, Headquartered in Ghana.
+            </P>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="social-icons">
-          <p><i class="fas fa-mobile-alt  icons-6"></i> +233-263-189-075</p>
-          <p><i class="fas fa-envelope  icons-6"></i> <a href="">salesghana@tallyafrica.com</a></p>
+          <div class="about-text">
+            <h3>PRODUCTS</h3>
+            <i class="fas fa-shopping-bag   icons-3"></i>
+            <ul>
+              <li><a href=""><i class="fas fa-id-card-alt  icons-4"></i>Tally ERP9 Software licences</a></li>
+              <li><a href=""><i class="fas fa-users-cog  icons-4"></i>Tally ERP9 Software Renewals</a></li>
+              <li><a href=""><i class="fas fa-users-cog  icons-4"></i>Tally ERP9 Software Upgrades</a></li>
+              <li><a href=""><i class="fas fa-puzzle-piece  icons-4"></i>Tally ERP9 Software AddOns</a></li>
+            </ul>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="social-icons">
-            <h4>SOCIAL MEDIA LINKS</h4>
-            <div class="social">
-          <i class="fab fa-facebook-square  icons-5"></i><span><i class="fab fa-linkedin  icons-5"></i><span><i
-                class="fab fa-twitter-square  icons-5"></i></span></i><i
-              class="fab fa-instagram-square  icons-5"></i></span>
+          <div class="about-text">
+            <h3>SERVICES</h3>
+            <i class="fas fa-shipping-fast  icons-3"></i>
+            <ul>
+              <li><a href=""><i class="fas fa-users  icons-4"></i></i>Training (Corporate & Individuals)</a></li>
+              <li><a href=""><i class="fas fa-database  icons-4"></i></i>Installation & Data Structuring</a></li>
+              <li><a href=""><i class="fas fa-chart-pie  icons-4"></i></i>Audit Analysis</a></li>
+              <li><a href=""><i class="fas fa-chalkboard-teacher  icons-4"></i></i>Advice & Consulting</a></li>
+              <li><a href=""><i class="fas fa-network-wired  icons-4"></i>Hardware & Network</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--=======================--footer section=============================-->
+    <footer>
+      <div class="container-fluid">
+        <div class="row  row-social">
+          <div class="col-md-4">
+            <div class="social-icons">
+              <h4>GET IN TOUCH</h4>
+              <p>No. 188/12 First Chabar</p>
+              <p>Mallam-Odorkor Highway</p>
+              <p>P.O.BOX ML 629</p>
+              <p>Mallam-Accra</p>
             </div>
           </div>
+          <div class="col-md-4 ">
+            <div class="social-icons">
+              <p><i class="fas fa-phone-square-alt icons-6"></i>&ThickSpace;+233-263-189-075</p>
+              <p><i class="fas fa-phone-volume  icons-6" style="color: crimson;"></i> HOT LINE:+233-24-111-2221</p>
+              <p><i class="fas fa-envelope icons-6"></i> &ThickSpace; <a href="">salesghana@tallyafrica.com</a></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="social-icons">
+              <h4>SOCIAL MEDIA LINKS</h4>
+              <div class="social">
+                <i class="fab fa-facebook-square  icons-5"></i><span><i class="fab fa-linkedin  icons-5"></i><span><i class="fab fa-twitter-square  icons-5"></i></span></i><i class="fab fa-instagram-square  icons-5"></i></span></div>
+            </div>
+          </div>
+          <div class="copy">
+            <p><i class="far fa-copyright"></i>2021 Prymage Consultancy Limited</p>
+          </div>
         </div>
-        <div class="copy">
-        <p><i class="far fa-copyright"></i>2021 Prymage Consultancy Limited</p>
       </div>
-      </div>
-     
-    </div>
-  </footer>
+    </footer>
 
 
 
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-  <script src="js/jquery-3.6.0.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      $(".carousel").owlCarousel({
+        margin: 20,
+        loop: true,
+        autoplay: true,
+        autoplaytime: 1000,
+        autoplayHoverPause: true,
+
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          600: {
+            items: 2,
+            nav: false
+          },
+          1000: {
+            items: 3,
+            nav: false
+          },
+        }
+      })
+    </script>
+
+
 
 
 </body>
