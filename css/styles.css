@@ -106,10 +106,13 @@ nav img {
   transform: translatey(-5%);
 }
 
-.icons-1 {
-  font-size: 50px;
-  margin: 20px;
-  color: crimson;
+.featured-text img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  height: 10vh;
+  margin: 0 auto;
 }
 .text-3 p {
   text-align: center;
@@ -240,13 +243,13 @@ article p {
 .about-text a:hover {
   color: rgb(27, 27, 26);
 }
-.icons-3 {
-  align-items: center;
-  font-size: 65px;
-  color: crimson;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+.about-text img {
+  display: block;
+ margin-right: auto;
+ margin-left: auto;
+ width: 100px;
+ height: 10vh;
+ margin: 0 auto;
 }
 .icons-4 {
   color: crimson;
@@ -609,7 +612,7 @@ main {
 /*=====Testimonails section========*/
 .test:hover {
   width: 350px;
-  height: 450px;
+  height: 460px;
   transition: width 6s, height 4s;
   opacity: 1;
 }
@@ -619,7 +622,7 @@ main {
   margin-bottom: 30px;
   margin-top: 20px;
   padding: 20px;
-  height: 285px;
+  height: 300px;
   opacity: 0.2;
   word-wrap: normal;
   border-radius: 0 20px 0 20px;
@@ -631,7 +634,7 @@ main {
   margin-left: auto;
 }
 .test p {
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
   font-style: italic;
   color: honeydew;
