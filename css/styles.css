@@ -409,7 +409,7 @@ article p {
 }
 .vision p {
   text-align: center;
-  font-size: 18px;
+  font-size: 22px;
   padding: 10px;
 }
 .col-md-12 {
@@ -418,44 +418,25 @@ article p {
   font-size: 30px;
   text-align: centers;
 }
+/*====explore button====*/
 
 .explore-btn {
   margin-right: auto;
   margin-left: auto;
-  margin-top: 20px;
-  width: 20%;
+  margin-top: 10px;
+  width: 25%;
   height: 7vh;
-  border-radius: 20px;
-  background-color: rgb(5, 138, 179);
-  box-shadow: rgba(240, 147, 8, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  background-color: rgb(235, 8, 73);
 }
-.explore-btn:hover{
-  color :rgb(245, 162, 9);
-}
+
 .explore-btn p {
-  text-align: center;
-  font-family: cursive;
-  padding:10px;
-  position: relative;
-  animation-name: explore;
-  animation-duration: 4s;
-}
-@keyframes explore {
-  0% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(30px);
-    color: coral;
-  }
-  50% {
-    transform: translateX(-30px);
-    color: rgb(80, 185, 255);
-  }
-  75% {
-    transform: translateX(15px);
-    color: rgb(161, 161, 161);
-  }
+  color: #fff;
+font-size: 22px;
+padding: 10px;
+margin: auto;
+text-align: center; 
+
 }
 .years{
   height: 5vh;
@@ -564,28 +545,31 @@ textarea {
 }
 
 main {
-  background-image: linear-gradient(
-      rgba(17, 97, 121, 0.918),
-      rgba(31, 21, 3, 0.863)
-    ),
-    url("../images/featured-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
 }
 .counter-section {
+  background-image: linear-gradient(
+    rgba(17, 97, 121, 0.918),
+    rgba(31, 21, 3, 0.863)),
+  url("../images//handshake-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding: 1px;
   margin: 10% auto;
   color: tomato;
 }
-.icon-box {
-  border: 3px dotted crimson;
-  height: 100px;
+.icon-box img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   width: 100px;
-  transform: rotate(45deg);
-  border-radius: 5px;
-  margin: 20px auto;
+  height: 10vh;
+  margin: 0 auto;
 }
 .icons-counter {
   font-size: 50px;
@@ -600,13 +584,33 @@ main {
 .counter-box .counter {
   font-size: 50px;
 }
-.btn-warning {
-  max-width: 500px;
-  padding: 10px;
-  margin: 10px;
+.explore-btn1{
+  width: 30%;
+  height: 7vh;
+  padding: 13px;
+  margin: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(235, 8, 73);
+  border-radius: 0 10px;
+  cursor: pointer;
 }
-.btn-warning p {
+.explore-btn1 p {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
   font-size: 18px;
+}
+.explore-btn1 a{
+  color: #fff;
+}
+.explore-btn1 a:hover{
+  color: grey;
+}
+.explore-btn1:hover{
+  background-color: rgb(0, 133, 204
+  );
+  transition: 0.5s ease-in-out;
 }
 
 /*=====Testimonails section========*/
@@ -634,7 +638,7 @@ main {
   margin-left: auto;
 }
 .test p {
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
   font-style: italic;
   color: honeydew;
